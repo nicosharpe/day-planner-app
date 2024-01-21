@@ -18,13 +18,24 @@ $(document).ready(function () {
 
         // Loop from 8am to 6pm (24-hour format)
         for (var hour = 8; hour <= 18; hour++) {
+
+            row = $("<div>").addClass("row");
+            container.append(row);
+
             var hourFormat = dayjs().hour(hour).format("h A");
 
-            // Create a div for each hour
-            var div = $("<div>").addClass("time-block row hour").text(hourFormat);
-            container.append(div);
+            var time = $("<div>").addClass("time-block row hour col-1 py-3").text(hourFormat);
             
+            row.append(time)
+
+            var textArea = $("<input>").addClass("time-block col-10").text("")
             
+            row.append(textArea)
+
+            var saveButton = $("<button>").addClass("saveBtn col-1");
+
+            row.append(saveButton);
+
 
 
 
