@@ -24,15 +24,14 @@ $(document).ready(function () {
             var div = $("<div>").addClass("time-block row hour").text(hourFormat);
             container.append(div);
             
-
             
 
+
+
         }
-
         
-        timeBlocks()
     }
-
+    timeBlocks();
 
 
 
