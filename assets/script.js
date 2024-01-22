@@ -28,11 +28,12 @@ $(document).ready(function () {
             
             row.append(time)
 
-            var textArea = $("<input>").addClass("time-block col-10").text("")
+            var textArea = $("<input>").addClass("textarea col-10").text("")
             
             row.append(textArea)
 
             var saveButton = $("<button>").addClass("saveBtn col-1");
+            
 
             row.append(saveButton);
 
