@@ -19,7 +19,7 @@ $(document).ready(function () {
         // Loop from 8am to 6pm (24-hour format)
         for (var hour = 8; hour <= 18; hour++) {
 
-            row = $("<div>").addClass("row");
+            row = $("<div>").addClass("row mx-auto");
             container.append(row);
 
             var hourFormat = dayjs().hour(hour).format("h A");
@@ -32,7 +32,7 @@ $(document).ready(function () {
             
             row.append(textArea)
 
-            var saveButton = $("<button>").addClass("saveBtn col-1");
+            var saveButton = $("<button>").addClass("saveBtn col-1 fa-solid fa-floppy-disk");
             
 
             row.append(saveButton);
