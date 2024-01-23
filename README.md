@@ -4,7 +4,7 @@ https://nicosharpe.github.io/day-planner-app/
 
 A simple day planner to plan your day by the hour.
 
-<img src="./images/Screenshot 2024-01-23 230540.png>
+<img src="./images/Screenshot 2024-01-23 230540.png">
 
 This planner app displays the current day at the top of the calender when a user opens the planner and presents timeblocks for standard business hours when the user scrolls down.
 
