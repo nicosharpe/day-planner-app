@@ -87,5 +87,4 @@ console.log(textArea);
         }
     }
 
-
 });
